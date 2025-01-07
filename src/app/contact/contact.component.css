@@ -1,0 +1,31 @@
+section
+{
+    background-color:white;
+    margin-top: 60px;
+    padding: 48px;
+    min-height: 70vh;
+    margin-bottom: 60px;
+}
+
+.line
+{
+    width: 100px;
+    height: 4px;
+    background-color: black;
+}
+
+.allLabel
+{
+  margin: 2px;
+    
+    color: rgb(26, 188, 156);
+}
+
+button
+{
+    background-color: rgb(26, 188, 156);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 2px;
+    border:2px solid rgb(26, 188, 156);
+}

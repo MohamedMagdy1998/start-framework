@@ -1,0 +1,25 @@
+nav
+{
+    background-color: rgb(44, 62, 80);
+    /* margin-bottom: 60px; */
+   max-height: 15vh;
+}
+
+.bgLink
+{
+    background-color: rgb(26, 188, 156);
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    margin: 0 .625rem;
+    cursor: pointer;
+
+}
+.nav-item,startPage
+{
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+section
+{
+    background-color:rgb(26, 188, 156) ;
+    /* margin-top: 4rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    height: 90vh;
+}
+.photo img
+{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+i
+{
+    color: white;
+   
+    
+}
+
+.line
+{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}

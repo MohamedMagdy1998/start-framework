@@ -1,0 +1,115 @@
+<section>
+    <h2 class="text-center text-uppercase fw-bolder fs-1 mt-3">portfolio
+        component</h2>
+    <div class="icons  mb-3 d-flex justify-content-center align-items-center">
+        <div class="line me-3"></div>
+        <i class="fa-solid fa-star fs-4 text-center "></i>
+        <div class="line ms-3"></div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-4 ">
+            <div class="inner" (click)=" display('/poert1.png')">
+                <div class="photo overflow-hidden rounded-3 position-relative">
+                    <img src="/poert1.png" class="w-100 " alt="photo">
+
+                    <div class="layer  d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-plus text-white fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="inner" (click)=" display('/port2.png')">
+                <div class="photo overflow-hidden rounded-3 position-relative">
+                    <img src="/port2.png" class="w-100 " alt="photo">
+
+                    <div class="layer  d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-plus text-white fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-4">
+            <div class="inner" (click)=" display('/port3.png')">
+                <div class="photo overflow-hidden rounded-3 position-relative">
+                    <img src="/port3.png" class="w-100 " alt="photo">
+
+                    <div class="layer  d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-plus text-white fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 ">
+            <div class="inner" (click)=" display('/poert1.png')">
+                <div class="photo overflow-hidden rounded-3 position-relative">
+                    <img src="/poert1.png" class="w-100 " alt="photo">
+
+                    <div class="layer  d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-plus text-white fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="inner" (click)=" display('/port2.png')">
+                <div class="photo overflow-hidden rounded-3 position-relative">
+                    <img src="/port2.png" class="w-100 " alt="photo">
+
+                    <div class="layer  d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-plus text-white fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-4">
+            <div class="inner" (click)=" display('/port3.png')">
+                <div class="photo overflow-hidden rounded-3 position-relative">
+                    <img src="/port3.png" class="w-100 " alt="photo">
+
+                    <div class="layer  d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-plus text-white fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        @if (isClicked)
+        {
+        <div
+            class="lightboxcontainer d-flex justify-content-center align-items-center position-fixed top-0 start-0 end-0 bottom-0">
+            <div class="lightboxitem ">
+
+                <img src="{{imageSource}}" class=" w-100" alt="clickedPhoto">
+
+            </div>
+        </div>
+        }
+
+
+
+
+
+
+    </div>
+
+</section>

@@ -1,0 +1,19 @@
+section
+{
+    background-color:rgb(26, 188, 156) ;
+    /* margin-top:60px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+  min-height: 80vh;
+ 
+}
+
+.line
+{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}

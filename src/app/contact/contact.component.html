@@ -1,0 +1,62 @@
+<section>
+    <h2 class="text-center text-uppercase fw-bolder fs-1 mt-3">conatct
+        section</h2>
+    <div class="icons  mb-3 d-flex justify-content-center align-items-center">
+        <div class="line me-3"></div>
+        <i class="fa-solid fa-star fs-4 text-center "></i>
+        <div class="line ms-3"></div>
+    </div>
+
+    <form action class="mx-auto w-50 my-5">
+
+
+
+        @if (text=='')
+        {
+        <label class=" allLabel " for="userName">User Name : {{text}}</label>
+        }
+
+        <input id="userName" class="form-control border-0 border-bottom position-relative mb-5" type="search"
+            placeholder="user name" [(ngModel)]="text" />
+
+
+
+
+
+
+
+
+        @if (age)
+        {
+        <label class=" allLabel " for="userage">User Age : </label>
+        }
+
+        <input id="userage" class="form-control border-0 border-bottom position-relative mb-5" type="text"
+            placeholder="user age" [(ngModel)]="age" />
+
+
+        @if (email=='')
+        {
+        <label class=" allLabel " for="userName">User Email : </label>
+        }
+
+        <input id="userEmail" class="form-control border-0 border-bottom position-relative mb-5" type="text"
+            placeholder="user Email" [(ngModel)]="email" />
+
+
+
+        @if (password=='')
+        {
+        <label class=" allLabel " for="userPassword">User password : </label>
+        }
+
+        <input id="userPassword" class="form-control border-0 border-bottom position-relative mb-5" type="text"
+            placeholder="user password" [(ngModel)]="password" />
+
+
+        <button class="rounded-1 my-5">send Message</button>
+
+
+    </form>
+
+</section>
